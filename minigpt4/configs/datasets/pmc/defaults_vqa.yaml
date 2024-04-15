@@ -1,0 +1,17 @@
+ # Copyright (c) 2022, salesforce.com, inc.
+ # All rights reserved.
+ # SPDX-License-Identifier: BSD-3-Clause
+ # For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/BSD-3-Clause
+
+datasets:
+  pmc_vqa:
+    # data_dir: ${env.data_dir}/datasets
+    data_type: images # [images|videos|features]
+
+    build_info:
+
+      # annotations:
+      #   train:
+      #     storage: /data/kpahwa/random/PMC-VQA/PMC-VQA/pmc_vqa_dataset.json
+      # images:
+        storage: /data/kpahwa/random/PMC-VQA/PMC-VQA/
